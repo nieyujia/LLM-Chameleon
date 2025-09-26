@@ -4,7 +4,7 @@ import json
 from openai import OpenAI
 
 client = OpenAI(
-    api_key="sk-ebd93d5dc05c4c81a589037f7b85fcd1",
+    api_key="your_api_key",
     base_url="https://api.deepseek.com"
 )
 
@@ -189,3 +189,4 @@ if __name__ == "__main__":
     chameleons = 1
     game(n, chameleons, word, chameleon_word)
     print('游戏结束！')
+
